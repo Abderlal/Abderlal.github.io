@@ -65,10 +65,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Formulaire de contact
     const contactForm = document.getElementById('contactForm');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+            if (contactForm) {
+    // Le formulaire est maintenant géré par Formspree
+    // Nous n'avons plus besoin de prévenir le comportement par défaut
+    }
             
             // Simuler l'envoi du formulaire
             const submitBtn = this.querySelector('.btn-submit');
